@@ -10,4 +10,9 @@ int main()
         printf("Dame un numero: ");
         scanf("%d", &arr[i]);
     }
+    for (i = 0; i < 10; i++)
+    {
+        printf("%d\n", arr[i]);
+    }
+    return 0;
 }
